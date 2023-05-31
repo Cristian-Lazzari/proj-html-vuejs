@@ -40,6 +40,8 @@ export default {
 <template>
  <AppHeader
  :arr="pageMenuArr"/>
+ <AppMain/>
+ <AppFooter/>
  
 </template>
 <style lang="scss">
