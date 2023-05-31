@@ -1,17 +1,45 @@
 <script>
 export default{
-
+    
 }
 </script>
 <template>
     <div class="container">
         <h2>REAL WORD RESULTS</h2>
         <img src="../assets/img/divider-xx-red.png" alt="">
-        <div class="card">
-            <img src="../assets/img/blog6.jpg" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ut dolores, </p>
-            <p>name</p>
+        <div class="row">
+            <div class="card">
+                <img src="../assets/img/review_1-compressor.jpg" alt="">
+                <div class="text-content">
+                    <p>"Lorem ipsum dolor sit, amet ur perferendis id expedita ae culpa aliquam, nesciunt" </p>
+                    <p class="name">- Tara Smith</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../assets/img/review_3-compressor-2.jpg" alt="">
+                <div class="text-content">
+                    <p>"Lorem ipsum dolor sit, amet ur perferendis id expedita ae culpa aliquam, nesciunt" </p>
+                    <p class="name">- Simon Chel</p>
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="card">
+                <img src="../assets/img/review_2-compressor.jpg" alt="">
+                <div class="text-content">
+                    <p>"Lorem ipsum dolor sit, amet ur perferendis id expedita ae culpa aliquam, nesciunt" </p>
+                    <p class="name">- Jen Wirth</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../assets/img/review_4-compressor-2.jpg" alt="">
+                <div class="text-content">
+                    <p>"Lorem ipsum dolor sit, amet ur perferendis id expedita ae culpa aliquam, nesciunt" </p>
+                    <p class="name">- Jeff Glum</p>
+                </div>
+            </div>
+        </div>
+       
     </div>
 </template>
 <style lang="scss" scoped>
@@ -25,10 +53,23 @@ export default{
         padding: 2rem;
         max-width: 900px;
         margin: 0 auto;
-        .card{
-            width: 45%;
-            img{
-                height: 90px;
+        .row{
+            @include dfc;
+            gap: 1.5rem;
+            .card{
+                @include dfc;
+                gap: 1em;
+                width: 45%;
+                background-color: $c-d-grey;
+                padding: 1rem;
+                img{
+                    height: 90px;
+                }
+                .text-content{
+                   display: flex;
+                   flex-direction: column;
+                   gap: .5em;
+                }
             }
         }
     }
