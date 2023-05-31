@@ -7,7 +7,7 @@ export default{
     <div class="container">
         <h2>WORD CLASS Fitness</h2>
         <img src="../assets/img/divider-xx-red.png" alt="">
-        <p> At Avada Gym, evrything we do from top to bottom is of the highest quality to ensure we're equipped to hel tou rach goals of a heathy and fit lifestyle</p>
+        <p class="f-1_1-2"> At Avada Gym, evrything we do from top to bottom is of the highest quality to ensure we're equipped to hel tou rach goals of a heathy and fit lifestyle</p>
     </div>
 </template>
 <style lang="scss" scoped>
@@ -24,6 +24,7 @@ export default{
         p{
             color: $c-light-grey;
             line-height: 2.2rem;
+            max-width: 60%;
         }
     }
     .container::after{

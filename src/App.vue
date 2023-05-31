@@ -42,6 +42,7 @@ export default {
  :arr="pageMenuArr"/>
  <AppMain/>
  <AppFooter/>
+
  
 </template>
 <style lang="scss">

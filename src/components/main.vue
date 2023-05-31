@@ -9,8 +9,8 @@ export default {
 
 <template>
     <div class="container">
-        <appResults/>
         <appSignup/>
+        <appResults/>
         <appTrainer/>
     </div>
 </template>

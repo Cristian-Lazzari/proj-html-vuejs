@@ -24,7 +24,7 @@ export default{
         @include dfc;
         background-color: $c-d-grey;
         color: $c-white;
-        padding: 3rem 0;
+        padding: 5rem 0;
         gap: 1.6rem;
         img{
             max-width: 25%;
@@ -39,7 +39,7 @@ export default{
                 margin-top: 1rem;
                 .iptf{
                     background-color: $c-grey;
-                    border: 1px solid $c-light-grey;
+                    border: 1px solid $c-light-dgrey;
                     height: 1.7rem;
                 }
                 label{
