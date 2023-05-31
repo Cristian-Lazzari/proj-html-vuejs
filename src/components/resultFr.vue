@@ -49,10 +49,11 @@ export default{
         background-color: $c-white;
         color: $c-white;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 2.5rem;
         padding: 2rem;
         max-width: 900px;
         margin: 0 auto;
+        padding-top: 7rem;
         .row{
             @include dfc;
             gap: 1.5rem;

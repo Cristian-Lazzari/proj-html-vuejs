@@ -8,7 +8,8 @@ export default {
 }
 </script>
 <template>
-    
+    <trainerFr/>
+    <trainerSc/>
 </template>
 <style lang="scss" scoped>
     @use '../assets/styles/general.scss' as *;
