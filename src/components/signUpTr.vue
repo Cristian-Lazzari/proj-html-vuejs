@@ -53,6 +53,7 @@ export default{
     background-image: url(../assets/img/gym_bkgd_bw-compressor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 3.5rem 0;
     .r-container{
         display: flex;
         max-width: 900px;
