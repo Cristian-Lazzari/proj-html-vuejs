@@ -1,0 +1,24 @@
+$c-header: #121414;
+$c-red: #EE6059;
+$c-grey: #1E2123;
+$c-black: #1E2123;
+$c-white: white;
+$c-x-light-grey:#EBEAEA;
+$c-light-grey:#999999;
+
+
+
+///**MIXIN**///
+@mixin dfc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin dfa {
+    display: flex;
+    align-items: center;
+}
+@mixin dfj {
+    display: flex;
+    justify-content: center;
+}
