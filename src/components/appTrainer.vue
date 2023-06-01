@@ -8,9 +8,12 @@ export default {
 }
 </script>
 <template>
-    <trainerFr/>
-    <trainerSc/>
+    <div class="container">
+        <trainerFr/>
+        <trainerSc/>
+    </div>
 </template>
 <style lang="scss" scoped>
     @use '../assets/styles/general.scss' as *;
+    
 </style>

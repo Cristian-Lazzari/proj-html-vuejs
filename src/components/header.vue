@@ -2,6 +2,11 @@
 export default {
     props:{
         arr: Array,
+    },
+    data(){
+        return{
+            
+        }
     }
 }
 </script>
@@ -14,7 +19,7 @@ export default {
                 v-for="item, id in arr"
                 :key="id"
                 :class="{actived : item.active}"
-                class="f-1_1-3">
+                class="f-1_1-1">
                     {{ item.title }}
                 </li>
             </ul>
@@ -36,7 +41,7 @@ export default {
         background-position: top;
         background-color: $c-header;
         height: 400px;
-        padding: 1.5rem;
+        padding: 3rem;
         
         .top-header{
             
@@ -45,6 +50,7 @@ export default {
             img{
                 width: 16%;
                 min-width: 90px;
+                max-width: 130px;
             }
             ul{
                 @include dfc;
@@ -61,6 +67,9 @@ export default {
             }
             button{
                 margin-top: 5px;
+            }
+            h1{
+                font-size: 4rem;
             }
 
         }

@@ -24,12 +24,12 @@ export default {
 @use '../assets/styles/general.scss' as *;
     div{
         @include dfc;
-        gap: .7rem;
-        width: 50%;
+        gap: .6rem;
+        width: 15%;
       
         .square{
             
-            background-color: $c-d-grey;
+            background-color: $c-red;
             width: calc((100% - 1.4rem) / 3);
             aspect-ratio: 1;
             padding: 3px;

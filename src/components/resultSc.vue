@@ -24,8 +24,9 @@ export default{
         @include dfc;
         color: $c-white;
         flex-direction: column;
+        text-align: center;
         gap: 2.5rem;
-        max-width: 900px;
+        max-width: 700px;
         margin: 0 auto;
         margin-top: 7rem;
         .img-conatiner{
@@ -33,7 +34,7 @@ export default{
             flex-wrap: wrap;
             gap: 1.3rem;
             img{
-                width: 230px;
+                width: 210px;
             }
         }
     }

@@ -57,6 +57,18 @@ export default{
         border: 0px solid $c-white;
         padding: 1em 2em ;
         margin-top: 1.3rem;
+        transition: all linear .2s;
     }
+    
+@media (max-width:470px) {
+    .container{
+        flex-direction: column;
+        img{
+            
+            align-self: center;
+        }
 
+    }
+    
+}
 </style>

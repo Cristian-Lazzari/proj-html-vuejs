@@ -23,7 +23,7 @@ export default{
         position: relative;
         p{
             color: $c-light-grey;
-            line-height: 2.2rem;
+            line-height: 1.7rem;
             max-width: 60%;
         }
     }
